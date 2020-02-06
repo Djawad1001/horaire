@@ -87,6 +87,8 @@ en précédent notre extension avec «%»
 
 body {
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.6rem;
+  overflow: hidden;
 }
 
 h1,
@@ -136,6 +138,12 @@ header {
   background-color: #d0e22b40;
 }
 
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
 #horaire div.video {
   background-color: yellow;
 }
@@ -153,7 +161,7 @@ header {
 }
 
 #horaire {
- 
+  /*display: -ms-grid;*/
   display: grid;
   -ms-grid-columns: 0.08fr (1fr)[5];
       grid-template-columns: 0.08fr repeat(5, 1fr);
