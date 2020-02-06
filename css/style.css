@@ -94,7 +94,6 @@ h1,
 h2,
 #horaire div p:nth-child(1) {
   font-weight: bold;
-  text-shadow: 5px 3px 5px #9cc4ca;
   margin: 0;
   padding: 0;
 }
@@ -144,7 +143,6 @@ header {
   }
   #horaire div p:nth-child(1) {
     font-weight: bold;
-    text-shadow: 5px 3px 5px #9cc4ca;
     margin: 5px;
     padding: 0;
   }
