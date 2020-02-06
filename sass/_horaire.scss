@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1,
+h2,
+#horaire div p:nth-child(1) {
+    font-weight: bold;
+    text-shadow: 5px 3px 5px rgb(156, 196, 202);
+    margin: 5px;
+    padding: 0;
+}
+
+#horaire div p:nth-child(1){
+    font-size: 1.5em;
+}
+
+header {
+    margin-bottom : 20px;
+}
+
+h3,p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.pauseCommunes {
+    background-color: #d0e22b40;
+}

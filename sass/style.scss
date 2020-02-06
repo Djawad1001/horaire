@@ -1,0 +1,29 @@
+/*!
+Auteur: Eddy Martin
+Description: Gabarit de base permettant d'explorer Sass et différents techniques CSS
+Version: 1.0.0
+License: GNU General Public License v2 or later
+
+*/
+
+/*--------------------------------------------------------------
+>>> LISTE DES FICHIERS SCSS IMPORTÉS 
+----------------------------------------------------------------
+# Variables
+# Layout
+# Element
+# Menu
+# Pied-page
+# entete
+# Mixin
+# Extend
+----------------------------------------------------------------
+# Variables
+--------------------------------------------------------------*/
+@import "_extend.scss";
+//@import "_layout.scss";
+@import "_variables.scss";
+@import "_horaire.scss";
+@import "_grid.scss";
+
+
