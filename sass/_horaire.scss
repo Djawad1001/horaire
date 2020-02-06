@@ -5,7 +5,7 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 0.6rem;
-    overflow: hidden;
+    
 }
 
 h1,
@@ -60,6 +60,7 @@ header {
 @media screen and (min-width : 768px){
     body{
         font-size: 1rem;
+        
     }
     #horaire div p:nth-child(1){
         font-weight: bold;
@@ -67,6 +68,7 @@ header {
         margin:5px;
         padding: 0;
     }
+    
 
 
 }
