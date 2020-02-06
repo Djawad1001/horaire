@@ -13,7 +13,7 @@ h2,
 #horaire div p:nth-child(1) {
     font-weight: bold;
     text-shadow: 5px 3px 5px rgb(156, 196, 202);
-    margin: 5px;
+    margin:0;
     padding: 0;
 }
 
@@ -60,6 +60,12 @@ header {
 @media screen and (min-width : 768px){
     body{
         font-size: 1rem;
+    }
+    #horaire div p:nth-child(1){
+        font-weight: bold;
+        text-shadow: 5px 3px 5px rgb(156, 196, 202);
+        margin:5px;
+        padding: 0;
     }
 
 

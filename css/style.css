@@ -96,7 +96,7 @@ h2,
 #horaire div p:nth-child(1) {
   font-weight: bold;
   text-shadow: 5px 3px 5px #9cc4ca;
-  margin: 5px;
+  margin: 0;
   padding: 0;
 }
 
@@ -142,6 +142,12 @@ header {
   body {
     font-size: 1rem;
   }
+  #horaire div p:nth-child(1) {
+    font-weight: bold;
+    text-shadow: 5px 3px 5px #9cc4ca;
+    margin: 5px;
+    padding: 0;
+  }
 }
 
 #horaire div.video {
@@ -161,7 +167,7 @@ header {
 }
 
 #horaire {
-  /*display: -ms-grid;*/
+  display: -ms-grid;
   display: grid;
   -ms-grid-columns: 0.08fr (1fr)[5];
       grid-template-columns: 0.08fr repeat(5, 1fr);
@@ -360,8 +366,7 @@ header {
 }
 
 #horaire div.pauseCommunes > div {
-  -webkit-transform: rotate(-25deg);
-          transform: rotate(-25deg);
+  /*transform: rotate(-25deg);*/
   border: none;
 }
 
